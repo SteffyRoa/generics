@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Generic1;
+
+/**
+ *
+ * @author sroa
+ */
+public class Moto {
+    private String nombre;
+    
+    public Moto(String nom){
+        this.nombre=nom;
+        
+    }
+
+  
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+      @Override
+    public String toString() {
+        return "Moto{" + "nombre=" + nombre + '}';
+    }
+    
+}
